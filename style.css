@@ -40,7 +40,7 @@ ul {
     grid-template-rows: 1fr 1fr;
 }
 
-.greeting > .profilePic {
+.greeting > .profilePicMain {
     grid-row: 1 / 3;
 }
 
@@ -105,4 +105,20 @@ ul {
 
 ul {
   list-style-type: none;
+}
+
+.icons {
+    display: flex;
+}
+
+.icons img {
+    margin-right: 25px;
+}
+
+.icons>div:first-child {
+    margin-left: auto;
+}
+
+.profilePic img, .profilePicMain img {
+    border-radius: 50%;
 }
