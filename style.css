@@ -81,20 +81,16 @@ ul {
     padding: 1em;
 }
 
+.annoucementContainer .card>div>div:first-child {
+    font-weight: bold;
+}
+
 .annoucementContainer  p{
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;   
     overflow: hidden;
 }
-
-.projects p {
-    display: -webkit-box;
-    -webkit-line-clamp: 5;
-    -webkit-box-orient: vertical;   
-    overflow: hidden;
-}
-
 
 .annoucementContainer > div > div {
     height: 50px;
@@ -107,11 +103,22 @@ ul {
     height: 100%;
 }
 
+.projects p {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;   
+    overflow: hidden;
+}
+
 .trendingContainer {
     grid-column: 2 / 3;
     
     display: grid;
     grid-template-rows: repeat(auto-fill, 1fr);
+}
+
+.trendingContainer .card .userProfile>div:nth-child(2)>div:first-of-type {
+    font-weight: bold;
 }
 
 .userProfile {
