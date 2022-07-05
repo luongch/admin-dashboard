@@ -25,6 +25,9 @@ ul {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+    box-shadow: 0px 3px 3px #91948e;    
+    position: relative;
 }
 
 .headerMenu, .headerButtons > ul {
@@ -62,6 +65,7 @@ ul {
 .card {
     background-color: #ffffff;
     border-radius: 10px;
+    box-shadow: 3px 3px 3px #91948e;    
 
 }
 
