@@ -161,10 +161,20 @@ ul {
 .logo {
     display: flex;
     align-items: center;
+    gap: 15px;
     padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .logo img {
     width: 75px;
     height: 75px;
+}
+
+.sidebar li {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 20px;
 }
