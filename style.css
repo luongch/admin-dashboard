@@ -203,3 +203,16 @@ ul {
     font-weight: bold;
     padding-bottom: 5px;
 }
+
+button {
+    background-color: #1892d3; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 20px;
+  /* text-align: center; */
+  /* text-decoration: none;
+  display: inline-block; */
+  font-size: 16px;
+  font-weight: bold;
+}
