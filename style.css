@@ -50,18 +50,22 @@ ul {
     grid-row:1/2;
 }
 
-/* 
-.headerButtons {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-} */
 
 .search {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;
     align-items: center;
+}
+
+.search span {
+    display: flex;
+}
+
+.search input {
+    width: 100%;
+    border-radius: 25px;
+    background-color: #e1e8f0;
 }
 
 .greeting {
@@ -105,9 +109,7 @@ ul {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 3px 3px 3px #91948e;
-    
     padding: 35px;
-
 }
 
 .projectsContainer .card div:first-child {
